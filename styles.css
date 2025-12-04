@@ -5,6 +5,11 @@
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
+body {
+  background-color: rgb(34, 34, 34);
+  color: white;
+}
+
 /* index.html */
 .title {
   text-align: center;
@@ -24,15 +29,15 @@
 }
 
 .recipe > a {
-  color: black;
-  text-decoration-color: white;
+  color: white;
+  text-decoration-color: black;
   text-underline-offset: 0;
   text-decoration-thickness: 0;
   transition: 150ms ease-in-out;
 }
 
 .recipe > a:hover {
-  text-decoration-color: black;
+  text-decoration-color: white;
   text-underline-offset: 8px;
   text-decoration-thickness: 2px;
 }
